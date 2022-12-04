@@ -1,0 +1,33 @@
+.App {
+  font-family: sans-serif;
+  text-align: center;
+  color: white;
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: column;
+  align-items: center;
+  border: slateblue 1px solid;
+  padding: 20px;
+  border-radius: 8px;
+  margin-top: 20px;
+  min-height: calc(100vh - 12vh);
+}
+
+.mybutton {
+  border: none;
+  height: 48px;
+  padding: 2px 20px;
+  color: white;
+  background-color: hsl(248, 53%, 58%);
+  border-radius: 4px;
+  font-size: 18px;
+  cursor: pointer;
+  margin: 4px 4px;
+  width: 25%;
+}
+button:hover {
+  background-color: hsl(248, 25%, 25%);
+}
+* {
+  background-color: #000000;
+}
